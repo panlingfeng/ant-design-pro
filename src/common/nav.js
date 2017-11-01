@@ -39,7 +39,7 @@ const data = [{
   name: '首页', // for breadcrumb
   path: '',
   children: [{
-    name: 'Dashboard',
+    name: '仪表盘',
     icon: 'dashboard',
     path: 'dashboard',
     children: [{
