@@ -23,7 +23,7 @@ const proxy = {
       },
     },
     $body: {
-      name: 'momo.zxy',
+      name: 'PLF',
       avatar: imgMap.user,
       userid: '00000001',
       notifyCount: 12,
