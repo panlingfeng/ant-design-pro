@@ -23,7 +23,7 @@ const proxy = {
       },
     },
     $body: {
-      name: 'PLF',
+      name: '绛门',
       avatar: imgMap.user,
       userid: '00000001',
       notifyCount: 12,
