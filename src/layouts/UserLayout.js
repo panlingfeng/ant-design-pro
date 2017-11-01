@@ -18,7 +18,7 @@ const links = [{
   href: '',
 }];
 
-const copyright = <div>Copyright <Icon type="copyright" /> 2017 蚂蚁金服体验技术部出品</div>;
+const copyright = <div>Copyright <Icon type="copyright" /> 2017 绛门技术部出品</div>;
 
 class UserLayout extends React.PureComponent {
   static childContextTypes = {
@@ -47,10 +47,10 @@ class UserLayout extends React.PureComponent {
             <div className={styles.header}>
               <Link to="/">
                 <img alt="" className={styles.logo} src="https://gw.alipayobjects.com/zos/rmsportal/NGCCBOENpgTXpBWUIPnI.svg" />
-                <span className={styles.title}>Ant Design</span>
+                <span className={styles.title}>物联网管理平台</span>
               </Link>
             </div>
-            <p className={styles.desc}>Ant Design 是西湖区最具影响力的 Web 设计规范</p>
+            <p className={styles.desc}>绛门科技——最具影响力的物联网规范平台</p>
           </div>
           {
             getRouteData('UserLayout').map(item =>
